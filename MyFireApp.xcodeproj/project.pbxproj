@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		EE600C6D255AEBED00488DB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE600C6B255AEBED00488DB0 /* Main.storyboard */; };
 		EE600C6F255AEBEF00488DB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE600C6E255AEBEF00488DB0 /* Assets.xcassets */; };
 		EE600C72255AEBEF00488DB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE600C70255AEBEF00488DB0 /* LaunchScreen.storyboard */; };
+		EE78110E255B16050095C1D1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE78110D255B16050095C1D1 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		EE600C6E255AEBEF00488DB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE600C71255AEBEF00488DB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE600C73255AEBEF00488DB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE78110D255B16050095C1D1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F05B34D635A3A102319F003C /* Pods-MyFireApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFireApp.release.xcconfig"; path = "Target Support Files/Pods-MyFireApp/Pods-MyFireApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,7 +58,6 @@
 				1DCA4F9BEEA93296EE1FC058 /* Pods-MyFireApp.debug.xcconfig */,
 				F05B34D635A3A102319F003C /* Pods-MyFireApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -88,6 +89,7 @@
 				EE600C6E255AEBEF00488DB0 /* Assets.xcassets */,
 				EE600C70255AEBEF00488DB0 /* LaunchScreen.storyboard */,
 				EE600C73255AEBEF00488DB0 /* Info.plist */,
+				EE78110D255B16050095C1D1 /* GoogleService-Info.plist */,
 			);
 			path = MyFireApp;
 			sourceTree = "<group>";
@@ -153,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE600C72255AEBEF00488DB0 /* LaunchScreen.storyboard in Resources */,
+				EE78110E255B16050095C1D1 /* GoogleService-Info.plist in Resources */,
 				EE600C6F255AEBEF00488DB0 /* Assets.xcassets in Resources */,
 				EE600C6D255AEBED00488DB0 /* Main.storyboard in Resources */,
 			);
