@@ -15,6 +15,10 @@
 		EE600C6F255AEBEF00488DB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE600C6E255AEBEF00488DB0 /* Assets.xcassets */; };
 		EE600C72255AEBEF00488DB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE600C70255AEBEF00488DB0 /* LaunchScreen.storyboard */; };
 		EE78110E255B16050095C1D1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE78110D255B16050095C1D1 /* GoogleService-Info.plist */; };
+		EE8EAC16255DB57A00C85B0C /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8EAC15255DB57A00C85B0C /* AuthViewController.swift */; };
+		EE8EAC18255DB59400C85B0C /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8EAC17255DB59400C85B0C /* SignInViewController.swift */; };
+		EE8EAC1A255DB5A500C85B0C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8EAC19255DB5A500C85B0C /* LoginViewController.swift */; };
+		EE8EAC1C255DB5BA00C85B0C /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8EAC1B255DB5BA00C85B0C /* PageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,10 @@
 		EE600C71255AEBEF00488DB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE600C73255AEBEF00488DB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE78110D255B16050095C1D1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EE8EAC15255DB57A00C85B0C /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		EE8EAC17255DB59400C85B0C /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		EE8EAC19255DB5A500C85B0C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EE8EAC1B255DB5BA00C85B0C /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		F05B34D635A3A102319F003C /* Pods-MyFireApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFireApp.release.xcconfig"; path = "Target Support Files/Pods-MyFireApp/Pods-MyFireApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,6 +94,10 @@
 				EE600C67255AEBED00488DB0 /* SceneDelegate.swift */,
 				EE600C69255AEBED00488DB0 /* ViewController.swift */,
 				EE600C6B255AEBED00488DB0 /* Main.storyboard */,
+				EE8EAC15255DB57A00C85B0C /* AuthViewController.swift */,
+				EE8EAC17255DB59400C85B0C /* SignInViewController.swift */,
+				EE8EAC19255DB5A500C85B0C /* LoginViewController.swift */,
+				EE8EAC1B255DB5BA00C85B0C /* PageViewController.swift */,
 				EE600C6E255AEBEF00488DB0 /* Assets.xcassets */,
 				EE600C70255AEBEF00488DB0 /* LaunchScreen.storyboard */,
 				EE600C73255AEBEF00488DB0 /* Info.plist */,
@@ -210,8 +222,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE8EAC1A255DB5A500C85B0C /* LoginViewController.swift in Sources */,
+				EE8EAC1C255DB5BA00C85B0C /* PageViewController.swift in Sources */,
+				EE8EAC16255DB57A00C85B0C /* AuthViewController.swift in Sources */,
 				EE600C6A255AEBED00488DB0 /* ViewController.swift in Sources */,
 				EE600C66255AEBED00488DB0 /* AppDelegate.swift in Sources */,
+				EE8EAC18255DB59400C85B0C /* SignInViewController.swift in Sources */,
 				EE600C68255AEBED00488DB0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
