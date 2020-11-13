@@ -14,25 +14,43 @@ class SignInViewController: UIViewController {
     @IBOutlet weak var lastNameTextField: UITextField!
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
-    @IBOutlet weak var signInlabel: UIButton!
+    @IBOutlet weak var signInlabel: UILabel!
     
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        signInlabel.isHidden = true
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func checkvalid () -> String? {
+        
+        if firstNameTextField.text != "",
+            lastNameTextField.text != "",
+            emailTextField.text != "",
+            passwordTextField.text != "",
+            
+            firstNameTextField.text == nil,
+            lastNameTextField.text == nil,
+            emailTextField.text == nil,
+            passwordTextField.text == nil {
+            
+            return "please fill all fields"
+        }
+    
+        return nil
+}
+    
+    
+    
+    @IBAction func signInButton(_ sender: Any) {
+        
+        if checkvalid() != nil {
+            signInlabel.isHidden = false
+            signInlabel.text = checkvalid()
+        }
     }
-    */
-
+    
 }

@@ -96,6 +96,9 @@
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <state key="normal" title="Зарегистрироваться"/>
+                                        <connections>
+                                            <action selector="signInButton:" destination="d1N-EB-u1y" eventType="touchUpInside" id="Iwg-md-gZ7"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -161,6 +164,9 @@
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <state key="normal" title="Авторизироваться"/>
+                                        <connections>
+                                            <action selector="loginButton:" destination="sQu-08-iNh" eventType="touchUpInside" id="a67-AG-Jsx"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -178,6 +184,12 @@
                         <viewLayoutGuide key="safeArea" id="4XA-jO-qrM"/>
                     </view>
                     <navigationItem key="navigationItem" id="Tzf-E6-eee"/>
+                    <connections>
+                        <outlet property="emailTF" destination="MkT-7Y-qFN" id="CMP-RH-H3R"/>
+                        <outlet property="errorLabel" destination="kwo-s7-4bW" id="fNL-AY-Bbt"/>
+                        <outlet property="loginButton" destination="ctu-KJ-l7N" id="xzp-ZA-NtR"/>
+                        <outlet property="passwordTF" destination="tWK-dD-5Hc" id="Scd-ow-AF0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9WT-aZ-cel" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
